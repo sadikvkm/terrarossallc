@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_services",
+  "info": {
+    "name": "Our Services",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 250
+    },
+    "short_description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "maxLength": 250,
+      "unique": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

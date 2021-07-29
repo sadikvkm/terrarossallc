@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_card_section_block_card_section_blocks",
+  "info": {
+    "name": "Card section block",
+    "icon": "chess-board"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "icon": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "text_color": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "icon_color": {
+      "type": "string",
+      "maxLength": 20
+    }
+  }
+}

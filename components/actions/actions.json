@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_actions_actions",
+  "info": {
+    "name": "Actions",
+    "icon": "baby",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "sub_title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 250
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "secondary_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "video_url": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "action_plans": {
+      "collection": "action-plans"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

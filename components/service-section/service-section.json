@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_service_section_service_sections",
+  "info": {
+    "name": "Service Section",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "sub_title": {
+      "type": "text",
+      "required": true,
+      "maxLength": 250
+    },
+    "our_services": {
+      "collection": "our-services"
+    }
+  }
+}

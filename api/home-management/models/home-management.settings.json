@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_managements",
+  "info": {
+    "name": "Home Management",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sliders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sliders.sliders"
+    },
+    "card_section_card_block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-section-block.card-section-block"
+    },
+    "HomeAboutSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-about-section.home-about-section"
+    },
+    "ServiceSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service-section.service-section"
+    },
+    "GallerySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery-section.gallery-section"
+    },
+    "ProjectSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project-section.project-section"
+    },
+    "Actions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "actions.actions"
+    }
+  }
+}

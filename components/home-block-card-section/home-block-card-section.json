@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_block_card_section_home_block_card_sections",
+  "info": {
+    "name": "HomeBlockCardSection",
+    "icon": "braille",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "icon": {
+      "type": "string",
+      "required": false,
+      "maxLength": 50
+    },
+    "icon_color": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "text_color": {
+      "type": "string",
+      "maxLength": 20
+    }
+  }
+}

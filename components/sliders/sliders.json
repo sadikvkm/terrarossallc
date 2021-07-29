@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sliders_sliders",
+  "info": {
+    "name": "Sliders",
+    "icon": "clone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "sub_title": {
+      "type": "string",
+      "required": false,
+      "maxLength": 100
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
